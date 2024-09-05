@@ -1,5 +1,7 @@
 # Google Map Scraping
 
+*“Larger the area longer it will take.”* - **Yoda**
+
 ## Introduction
 
 This project provides a suite of Python scripts to scrape and extract information from Google Maps and Instagram based on a specified location and search term. It generates Excel files containing useful links and detailed information related to your search.
