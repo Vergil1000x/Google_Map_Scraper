@@ -99,7 +99,8 @@ Example files generated might look like:
 
 ## Troubleshooting
 
-- **Error: `Yada Yada Anything`**: Ask [ChatGPT](https://chatgpt.com/) or Ask [Google](https://www.google.com/) or Ask [Me]().
+- **Error: `Yada Yada Anything`**: Ask [ChatGPT](https://chatgpt.com/) or Ask [Google](https://www.google.com/) or Ask [Me](mailto:koushikmallick1000@gmail.com).
+- **Precaution: `Regarding Chromedriver/Chrome`**: Make sure you are using latest version chromedriver and chrome. [Chromedriver Download Link](https://googlechromelabs.github.io/chrome-for-testing/).
 
 ## Contributing
 
