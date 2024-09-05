@@ -26,7 +26,7 @@ def scrape_links(driver, search_term, lat, lng, worksheet):
     """Scrape links for a given search term and location."""
     try:
         # Encode the search term and construct URL
-        encoded_search_term = urllib.parse.quote_plus(search_term)
+        encoded_search_term = urllib.parse.quote_plus(search_term+" near me")
         url = f"https://www.google.com/maps/search/{encoded_search_term}/@{lat},{lng},14z/data=!4m2!2m1!6e1?entry=ttu"
         driver.get(url)
         print(f"Loading URL: {driver.current_url}")
