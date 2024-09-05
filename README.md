@@ -71,15 +71,9 @@ This project provides a suite of Python scripts to scrape and extract informatio
 
 Example files generated might look like:
 
-<<<<<<< HEAD
-- `Varanasi_Aesthetic Clinic_2024-09-03_input.xlsx`
-- `Varanasi_Aesthetic Clinic_2024-09-03_output.xlsx`
-- `Varanasi_Aesthetic Clinic_2024-09-03_insta.xlsx`
-=======
 - `Varanasi_Aesthetic Clinic_2002-02-20_input.xlsx`
 - `Varanasi_Aesthetic Clinic_2002-02-20_output.xlsx`
 - `Varanasi_Aesthetic Clinic_2002-02-20_insta.xlsx`
->>>>>>> cafcdbc (Your descriptive commit message here)
 
 ## Tips
 
