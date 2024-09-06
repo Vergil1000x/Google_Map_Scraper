@@ -14,7 +14,7 @@ async def main(
     insta_file_path=r"fxinsta.xlsx",
 ):
     # Step 1: Extract links
-    scrape_step_1_links.main(input_file_path, search_term, place_name)
+    await scrape_step_1_links.main(input_file_path, search_term, place_name)
 
     # Remove duplicates from the input file
     df = pd.read_excel(input_file_path)
@@ -41,6 +41,7 @@ async def main(
             pattern in url_str
             for pattern in [
                 "instagram.com/p/",
+                "instagram.com/v/",
                 "instagram.com/reel/",
                 "instagram.com/reels/",
             ]

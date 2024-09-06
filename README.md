@@ -12,7 +12,7 @@ This project provides a suite of Python scripts to scrape and extract informatio
 - **`scrape_step_1_links.py`**: Scrapes Google Maps links based on the search term and location.
 - **`scrape_step_2_extract.py`**: Extracts detailed information from the Google Maps links.
 - **`scrape_step_3_insta.py`**: Scrapes Instagram links related to the search term.
-- **`scrape_step_4_check.py`**: Removes duplicates and unwanted URLs from the results.
+- **`scrape_step_4_check.py`**: Finds current location is within the "place name" place.
 - **`scrape_step_5_compile.py`**: Orchestrates the execution of the above scripts and manages file creation.
 - **`scrape_step_6_generate.py`**: Generates Excel files for storing the scraped data.
 - **`scrape_step_7_user.py`**: User-configurable script to specify place and search term.
@@ -20,6 +20,7 @@ This project provides a suite of Python scripts to scrape and extract informatio
 ## Prerequisites
 
 - **Python 3.7 or later**
+- **Visual Studio Code** or any other code editor
 - **Internet access** for scraping
 
 ## Installation
@@ -27,28 +28,22 @@ This project provides a suite of Python scripts to scrape and extract informatio
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/Vergil1000x/Google-Map-Scraping.git
-   cd Google-Map-Scraping
+   git clone https://github.com/Vergil1000x/Google_Map_Scraper.git
+   cd Google-Map-Scraper
    ```
 
-2. **Set Up a Virtual Environment**
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. **Install Dependencies**
+2. **Install Dependencies**
 
    ```bash
    pip install geopy openpyxl selenium playwright beautifulsoup4 pandas
+   playwright install
    ```
 
 ## Usage
 
 1. **Configure `scrape_step_7_user.py`**
 
-   Open `scrape_step_7_user.py` and set the `place_name` and `search_term` variables:
+   Open `scrape_step_7_user.py` and set the `place_name` and `search_term` variables, on line 6 and line 7:
 
    ```python
    place_name = "Varanasi"
@@ -102,7 +97,6 @@ Example files generated might look like:
 ## Troubleshooting
 
 - **Error: `Yada Yada Anything`**: Ask [ChatGPT](https://chatgpt.com/) or Ask [Google](https://www.google.com/) or Ask [Me](mailto:koushikmallick1000@gmail.com).
-- **Precaution: `Regarding Chromedriver/Chrome`**: Make sure you are using latest version chromedriver and chrome. [Chromedriver Download Link](https://googlechromelabs.github.io/chrome-for-testing/).
 
 ## Contributing
 
