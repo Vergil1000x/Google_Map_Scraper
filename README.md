@@ -12,7 +12,7 @@ This project provides a suite of Python scripts to scrape and extract informatio
 - **`scrape_step_1_links.py`**: Scrapes Google Maps links based on the search term and location.
 - **`scrape_step_2_extract.py`**: Extracts detailed information from the Google Maps links.
 - **`scrape_step_3_insta.py`**: Scrapes Instagram links related to the search term.
-- **`scrape_step_4_check.py`**: Finds current location is within the "place name" place.
+- **`scrape_step_4_check.py`**: Checks if the current location is within the specified "place name."
 - **`scrape_step_5_compile.py`**: Orchestrates the execution of the above scripts and manages file creation.
 - **`scrape_step_6_generate.py`**: Generates Excel files for storing the scraped data.
 - **`scrape_step_7_user.py`**: User-configurable script to specify place and search term.
