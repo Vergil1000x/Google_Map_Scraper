@@ -19,9 +19,9 @@ This project provides a suite of Python scripts to scrape and extract informatio
 
 ## Prerequisites
 
-- **Python 3.7 or later**
-- **Visual Studio Code** or any other code editor
-- **Internet access** for scraping
+- **Python 3.7 or later** [Download](https://www.python.org/downloads/)
+- **Visual Studio Code** or any other code editor, [VScode Download](https://code.visualstudio.com/download) 
+- **Internet access** for scraping, [I wish I could give you free internet too...]()
 
 ## Installation
 
